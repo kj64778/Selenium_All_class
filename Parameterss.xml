@@ -1,0 +1,9 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="data1" value="Kiran.jadhav"></parameter>
+    <classes>
+      <class name="com.java.TestNG.Parameters_Class"/>
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,22 @@
+
+<suite name="Demo_user+Define">
+
+  <test thread-count="5" name="Demo_TestCaseName">
+  <groups>
+  <run>
+  <include name = "Sanity"   />
+  <exclude name = "Regreassion"   />
+ 
+  
+  </run>
+  </groups>
+    <classes>
+      <class name="com.java.TestNG.TestAnnotation"/>
+      
+    </classes>
+  </test> <!-- Demo_TestCaseName -->
+  
+  
+  
+  
+</suite> <!-- Demo_user+Define -->
